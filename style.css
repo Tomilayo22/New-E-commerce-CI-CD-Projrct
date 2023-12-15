@@ -125,5 +125,54 @@ h2 {
   padding: 5px;
 }
 
-/* You can further customize these styles to match your brand and preferences. */
+/* Additional styling for color blocks */
+
+header {
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.trending {
+  background: linear-gradient(to right, #f39c12, #e67e22);
+}
+
+.categories {
+  background: linear-gradient(to right, #2ecc71, #27ae60);
+}
+
+.featured {
+  background: linear-gradient(to right, #e74c3c, #c0392b);
+}
+
+.footer {
+  background-color: #ecf0f1;
+}
+/* Additional styling for new sections and buttons */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #3498db;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.recent-purchases,
+.about-us,
+.latest-trends {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.latest-trends p {
+  margin-bottom: 20px;
+}
+
 
