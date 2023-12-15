@@ -1,0 +1,129 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #005bbf;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li:hover {
+  background-color: #ddd;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Main sections */
+
+main section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Trending section */
+
+.trending .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Categories section */
+
+.categories .category {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Featured section */
+
+.featured .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Additional styling */
+
+.footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #333;
+}
+
+/* Font Awesome icons */
+
+.fa {
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* You can further customize these styles to match your brand and preferences. */
+
